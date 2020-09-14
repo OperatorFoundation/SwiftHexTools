@@ -146,7 +146,7 @@ public struct SwiftHexTools {
   
 }
 
-extension Data
+public extension Data
 {
     init?(hex: String)
     {
@@ -170,7 +170,7 @@ extension Data
     }
 }
 
-extension Data
+public extension Data
 {
     var hex: String
     {
